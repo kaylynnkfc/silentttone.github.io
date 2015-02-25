@@ -3,38 +3,36 @@ body {
 }
 
 h1 {
-    color: #3B3939;
-    text-align: left; 
+    color: #3B3939; 
     font-size: 20px; 
 }
 
-
 p {
-    color: #3B3939; 
-    text-align: center; 
-    padding-top: 100px; 
-    padding-right: 350px; 
-    width: 300px; 
-    float: right; 
+    color: #3B3939;  
+    padding-top: 10px; 
 }
 
 img {
     border-radius: 50%; 
 }
-
-.image{
-    padding-left: 350px; 
-    float: left; 
-
+.image {
+    padding: 4px; 
 }
+
+.col-sm-3, .col-sm-5 {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 4px;
+    margin-top: 4px; 
+}
+
 
 /*Links-No underline except on hover*/
 a {
     color: #3B3939;  
     font-size: 20px; 
     text-decoration: none; 
-    padding: 10px; 
-    padding-bottom: 0px;
 }
 a:hover {
     border-style: none none solid none;
