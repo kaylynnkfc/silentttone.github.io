@@ -5,11 +5,15 @@ body {
 h1 {
     color: #3B3939; 
     font-size: 20px; 
+    font-family: 'Khula', sans-serif;
 }
 
 p {
     color: #3B3939;  
+    font-size: 15px; 
     padding-top: 10px; 
+    font-family: 'Khula', sans-serif;
+    
 }
 
 img {
@@ -34,7 +38,8 @@ img {
 }
 
 .nav {
-    font-size: 10px; 
+    font-size: 15px; 
+    font-family: 'Khula', sans-serif;
 }
 
 /*Links-No underline except on hover*/
@@ -63,7 +68,6 @@ a:active {
 /*Colors the title*/
 .navbar-default .navbar-brand {
   color: #4C0000;
-  font-size: 20px; 
   padding-right: 20px; 
    
 }
@@ -73,7 +77,6 @@ a:active {
 /*Colors non-selected links*/
 .navbar-default .navbar-nav > li > a {
   color: #3B3939;
-  font-size: 15px; 
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #4C0000;
