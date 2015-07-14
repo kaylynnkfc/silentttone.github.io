@@ -1,0 +1,21 @@
+h1 {
+    padding-top: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+#content {
+    color: darkgray;
+    padding: 200px;
+    padding-top: 0px;
+    font-family: 'Wire One', sans-serif;
+/*    text-align: justify;*/
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: darkslateblue;
+}

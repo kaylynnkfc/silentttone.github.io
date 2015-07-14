@@ -1,4 +1,0 @@
--when smaller: 
-    -make image smaller
-    -make Kaylynn Crawford left-aligned/vanished
-    -make text not left aligned
