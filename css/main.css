@@ -3,19 +3,57 @@ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 50px;
 }
-
+h2 {
+    letter-spacing: 0.5px;
+}
+h3 {
+    position: absolute;
+    right: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: right;
+    color: gray;
+}
+h4 {
+    margin: auto;
+}
+a {
+    color: teal;
+}
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: teal;
+}
+.hidden {
+    display: none;
+    color: darkgray;
+}
 #content {
     color: darkgray;
-    padding: 200px;
+    padding: 250px;
     padding-top: 0px;
+    padding-bottom: 0px;
     font-family: 'Wire One', sans-serif;
-/*    text-align: justify;*/
+    /*    text-align: justify;*/
+}
+#intro {
+    color: teal;
+}
+#imp {
+    color: teal;
+}
+#e {
+    /*    font-weight: lighter;*/
+    color: darkblue;
+}
+#t {
+    color: deeppink;
 }
 
-a, a:hover, a:visited {
-    text-decoration: none;
+#i {
+    color: purple;
 }
-
-a {
-    color: darkslateblue;
+#r {
+    color: green;
 }

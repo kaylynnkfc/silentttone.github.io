@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--    Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100' rel='stylesheet' type='text/css'>
 
+    <!--    JQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+    <!--    My CSS and JS-->
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <!--    Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="favicon/ico" />
+
+
 
     <title>Kaylynn Crawford</title>
 
 </head>
 
-<body background="background1.jpg">
-    <center><h1>Kaylynn Crawford</h1></center>
+<body background="images/background.jpg">
 
-    <div id="content">
-        <center><h2>
+    <div id="menu">
 
-            Hi! I'm Kaylynn Crawford. I'm a Computer Science major at
+        <h3>
+
+        <div id="click" onclick="toggler('options');">more+<br></div>
+
+        <div id="options" class="hidden">
+            <h4 onclick="intro()"; id="intro">Intro </h4>
+            <h4 onclick="edu()"; id="edu">Education </h4>
+            <h4 onclick="teach()"; id="teach">Teaching </h4>
+            <h4 onclick="intern()"; id="intern">Internships </h4>
+<!--
+            <h4 onclick="project()"; id="project">Projects </h4>
+            <h4 onclick="events()"; id="events">Events</h4>
+-->
+            <h4 onclick="resume()"; id="resume">Contact/Resume </h4>
+
+        </div>
+
+        </h3>
+
+    </div>
+
+    <center>
+        <h1 id="name">Kaylynn Crawford</h1>
+    </center>
+
+    <div id="content" class="content">
+        <center>
+            <h2>
+
+                Hi! I'm <span id='imp'>Kaylynn Crawford</span>. I'm a Computer Science major at
             <a href="http://www.smith.edu/">Smith College</a>
             in Massachusetts. I'm especially interested in web development and computer science education. I've worked as a teaching assistant at
             <a href="http://girlswhocode.com/">Girls Who Code</a>
             and
-            <a href="https://www.digitalmediaacademy.org/">Digital Media Academy</a>
-            , as well as interned at
+            <a href="https://www.digitalmediaacademy.org/">Digital Media Academy</a>, as well as interned at
             <a href="http://orbitalinsight.com/">Orbital Insight</a>
             and worked as a research assistant at Smith College. In my free time I enjoy looking up
             <a href="http://docs.bonsaijs.org/">cool graphics libraries </a>
@@ -33,14 +73,15 @@
 
             <br><br>
 
-            <a href="https://www.linkedin.com/in/kaylynncrawford">LinkedIn</a>
-            <br>
-            Email: Kaylynn.Crawford@gmail.com
+
+            </h2>
+        </center>
 
 
-        </h2></center>
+
 
     </div>
 
 </body>
+
 </html>
