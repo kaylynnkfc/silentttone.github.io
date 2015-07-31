@@ -73,8 +73,8 @@ a:visited {
         display: inline;
         position:static;
         text-align: center;
-        margin: auto;
-        padding: 3px;
+/*        margin: auto;*/
+/*        padding: 3px;*/
     }
     h3 {
         position: static;
