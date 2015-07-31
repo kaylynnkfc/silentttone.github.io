@@ -57,3 +57,42 @@ a:visited {
 #r {
     color: green;
 }
+#smallMenu {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    #content {
+        font-size: 12px;
+        padding: 50px;
+    }
+    #menu {
+        display: none;
+    }
+
+    #smallMenu {
+        display: inline;
+        position:static;
+        text-align: center;
+        margin: auto;
+        padding: 3px;
+    }
+    h3 {
+        position: static;
+        text-align: center;
+    }
+    h1 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #content {
+
+        padding: 10px;
+    }
+
+}
+
