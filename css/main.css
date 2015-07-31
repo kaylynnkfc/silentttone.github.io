@@ -36,6 +36,8 @@ a:visited {
     padding-bottom: 0px;
     font-family: 'Wire One', sans-serif;
     /*    text-align: justify;*/
+    -webkit-transition: padding 1s;
+    transition: padding 1s;
 }
 .intro {
     color: teal;
@@ -64,6 +66,8 @@ a:visited {
 @media (max-width: 900px) {
     #content {
         padding: 50px;
+        -webkit-transition: padding 1s;
+        transition: padding 1s;
     }
     #menu {
         display: none;
@@ -91,6 +95,9 @@ a:visited {
     #content {
         font-size: 13px;
         padding: 10px;
+
+        -webkit-transition: padding 1s, font-size 1s;
+        transition: padding 1s, font-size 1s;
     }
 
 }
