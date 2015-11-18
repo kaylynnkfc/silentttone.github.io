@@ -39,6 +39,9 @@ a:visited {
     -webkit-transition: padding .5s;
     transition: padding .5s;
 }
+#menu, #smallMenu {
+    cursor: pointer;
+}
 .intro {
     color: teal;
 }

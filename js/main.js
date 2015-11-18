@@ -28,7 +28,7 @@ function edu() {
     $('h4').css('color', 'darkgrey');
     $('span').css('color', 'darkgrey');
     $('.edu').css('color', 'darkblue');
-    document.getElementById("content").innerHTML = "<center><h2>  I currently attend <span id='e'>Smith College</span> in Massachusetts. I'm a junior,<span id='e'> majoring in Computer Science </span> and possibly minoring in Astronomy. Due to Smith's liberal arts nature, I've been able to take classes in a wide variety of areas, which I love. I will graduate in <span id='e'>2017</span>.  <br><br><span id='e'>Computer Science classes I've taken include:</span> AP Computer Science, Data Structures, Advanced Topics in Programming, Assembly Language, and Operating Systems.  </h2></center>";
+    document.getElementById("content").innerHTML = "<center><h2>  I currently attend <span id='e'>Smith College</span> in Massachusetts. I'm a junior,<span id='e'> majoring in Computer Science </span>. Due to Smith's liberal arts nature, I've been able to take classes in a wide variety of areas, which I love. I will graduate in <span id='e'>2017</span>.  <br><br><span id='e'>Computer Science Classes:</span><br> <span id='e'>Current:</span> AP Computer Science, Data Structures, Advanced Topics in Programming (Robotics), Assembly Language, Operating Systems. <br><span id='e'>In Progress:</span> Computer Graphics, Advanced Topics in Programming (Web Development and Javascript)</h2></center>";
 }
 
 
@@ -73,5 +73,5 @@ function resume() {
     $('h4').css('color', 'darkgrey');
     $('span').css('color', 'darkgrey');
     $('.resume').css('color', 'green');
-    document.getElementById("content").innerHTML = "<center><h2>  <a href='https://www.linkedin.com/in/kaylynncrawford'><span id='r'>LinkedIn</span></a>        <br><span id='r'>Email: </span>Kaylynn.Crawford@gmail.com  </h2></center>";
+    document.getElementById("content").innerHTML = "<center><h2><a href='https://www.linkedin.com/in/kaylynncrawford'><span id='r'>LinkedIn</span></a><a href='https://github.com/silentttone'> <br><span id='r'>Github</span></a><br><span id='r'>Email: </span>Kaylynn.Crawford@gmail.com  </h2></center>";
 }
