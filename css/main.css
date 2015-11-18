@@ -29,7 +29,7 @@ a:visited {
     display: none;
     color: darkgray;
 }
-#content {
+#intro, #edu, #teach, #intern, #projects, #events, #resume {
     color: darkgray;
     padding: 250px;
     padding-top: 0px;
@@ -38,16 +38,29 @@ a:visited {
     /*    text-align: justify;*/
     -webkit-transition: padding .5s;
     transition: padding .5s;
+    display: none;
 }
+
+#intro {
+    display: block;
+}
+
+.introLabel {
+    color: teal;
+}
+
 #menu, #smallMenu {
     cursor: pointer;
 }
+
 .intro {
     color: teal;
 }
+
 #imp {
     color: teal;
 }
+
 #e {
     /*    font-weight: lighter;*/
     color: darkblue;
@@ -67,7 +80,7 @@ a:visited {
 }
 
 @media (max-width: 900px) {
-    #content {
+    #intro {
         padding: 50px;
         -webkit-transition: padding 1s;
         transition: padding 1s;
@@ -80,6 +93,7 @@ a:visited {
         display: inline;
         position:static;
         text-align: center;
+        color: teal;
 /*        margin: auto;*/
 /*        padding: 3px;*/
     }
@@ -95,7 +109,7 @@ a:visited {
 }
 
 @media (max-width: 600px) {
-    #content {
+    #intro {
         font-size: 13px;
         padding: 10px;
 
